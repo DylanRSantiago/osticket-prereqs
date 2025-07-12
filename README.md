@@ -140,3 +140,35 @@ This tutorial outlines the prerequisites and installation of the open-source hel
    &emsp; - Password: Password1
 
 &emsp;- Set the default email (receives emails from customers).
+
+- Step 10: Set Up MySQL Database
+
+&emsp;- Install and open HeidiSQL.
+
+&emsp;- Create a new session with:
+
+&emsp;- Username: root
+
+&emsp;- Password: root
+
+&emsp;- Connect to the session and create a database named osTicket.
+
+&emsp;- Continue setting up osTicket in the browser:
+
+&emsp;- MySQL Database: osTicket
+
+&emsp;- MySQL Username: root
+
+&emsp;- MySQL Password: root
+
+&emsp;- Click Install Now!
+
+- Step 11: Access osTicket
+
+ &emsp;- login page: http://localhost/osTicket/scp/login.php
+
+  &emsp;&emsp;- Username: Itprofessional
+
+  &emsp;&emsp;- Password: Password1
+
+  &emsp;- Enter Tickets: http://localhost/osTicket/

@@ -87,4 +87,56 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
  &emsp;- Reload IIS (Stop and Start the server).
 
+- Step 7: Install osTicket  
+
+ &emsp;- Unzip osTicket v1.15.8 (`osTicket-v1.15.8.zip`).
+
+ &emsp;- Copy the upload folder into C:\inetpub\wwwroot.
+
+ &emsp;- Rename upload to osTicket.
+
+ &emsp;- Reload IIS (Stop and Start the server).
+
+ &emsp;- Open IIS, go to Sites -> Default -> osTicket.
+
+ &emsp;- Click *Browse :80 to verify the installation.
+ 
+- Step 8: Enable  required PHP Extensions
   
+  &emsp;- ISS -> Sites -> Default sites -> osTicket
+  
+  &emsp;&emsp;&emsp;- double click PHP manager (icon)
+
+  &emsp;&emsp;&emsp;- click "enable or disable an extension" 
+
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- Enable: php_imap.dll
+
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- Enable: php_intl.dll
+
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- Enable: php_opcache.dll
+
+  &emsp;- Refresh osTicket browser and see they are enabled
+
+- Step 9: Configure osTicket
+  
+&emsp;- Rename ost-sampleconfig.php to ost-config.php:
+
+&emsp;- From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+
+&emsp;- To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+&emsp;- Assign permissions to ost-config.php:
+
+&emsp; - Right click-> properties -> security -> advancted -> Disable inheritance -> remove all
+
+&emsp;- Add Everyone with Full Control.
+
+&emsp;- Continue setting up osTicket in the browser:
+
+&emsp;- Name your Helpdesk.
+ 
+   &emsp; - username : Itprofessional
+
+   &emsp; - Password: Password1
+
+&emsp;- Set the default email (receives emails from customers).

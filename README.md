@@ -40,9 +40,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
  - Control panel -> Programs -> Uninstall Programs -> Turn Windows features onoff
 
- - Check Internet Information Services
-
- - www services -> App Dev Features -> CGI
+ -  Check Internet Information Services -> WWW services  -> App Development Features -> CGI
 
 - Step 3: Inside osTicket Folder install required software
 
@@ -50,13 +48,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  
  &emsp; - Rewrite Module (`rewrite_amd64_en-US.msi`)
  
- &emsp; - VC Redist (`VC_redist.x86.exe`)
 
   - Step 4: Create a folder in C drive called "PHP"
     
-  - In osTicket folder extract  `php-7.3.8-nts-Win32-VC15-x86.zip` into `C\PHP` folder
+   - Step 5:  In osTicket folder extract  `php-7.3.8-nts-Win32-VC15-x86.zip` into `C\PHP` folder
+
+- Step 6: install VC Redist (`VC_redist.x86.exe`)
     
-  - Step 5: Install MYSQL
+- Step 7: Install MYSQL
 
   &emsp; - Run `mysql-5.5.62-win32.msi`
   
@@ -70,19 +69,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  &emsp;Username: `root`
  &emsp;Password: `root`
 
-- Step 6: Configure PHP in IIS
+- Step 8: Configure PHP in IIS
 
  &emsp; - Open IIS Manager as an administrator.
 
- &emsp; - Register PHP:
-
  &emsp; - Go to PHP Manager.
 
- &emsp;- Register C:\PHP\php-cgi.exe.
+  &emsp; - Register new php version -> browse to php folder inside get “php-cgi”
 
  &emsp;- Reload IIS (Stop and Start the server).
 
-- Step 7: Install osTicket  
+- Step 9: Install osTicket  
 
  &emsp;- Unzip osTicket v1.15.8 (`osTicket-v1.15.8.zip`).
 
@@ -96,7 +93,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
  &emsp;- Click *Browse :80 to verify the installation.
  
-- Step 8: Enable  required PHP Extensions
+- Step 10: Enable  required PHP Extensions
   
   &emsp;- ISS -> Sites -> Default sites -> osTicket
   
@@ -112,7 +109,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
   &emsp;- Refresh osTicket browser and see they are enabled
 
-- Step 9: Configure osTicket
+- Step 11: Configure osTicket
   
 &emsp;- Rename ost-sampleconfig.php to ost-config.php:
 
@@ -136,7 +133,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 &emsp;- Set the default email (receives emails from customers).
 
-- Step 10: Set Up MySQL Database
+- Step 12: Set Up MySQL Database
 
 &emsp;- Install and open HeidiSQL.
 
@@ -158,7 +155,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 &emsp;- Click Install Now!
 
-- Step 11: Access osTicket
+- Step 14: Access osTicket
 
  &emsp;- login page: http://localhost/osTicket/scp/login.php
 

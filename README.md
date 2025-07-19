@@ -42,6 +42,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
  -  Check Internet Information Services -> WWW services  -> App Development Features -> CGI
 
+<img width="1136" height="709" alt="lab Pics" src="https://github.com/user-attachments/assets/4fd934f7-cd9c-4c96-ae80-3c4b28cdc3e9" />
+
+ This is what it looks like within the window features
+ _ _ _
+
 - Step 3: Inside osTicket Folder install required software
 
 &emsp; - PHP Manager for IIS (`PHPManagerForIIS_V1.5.0.msi`)
@@ -79,6 +84,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
  &emsp;- Reload IIS (Stop and Start the server).
 
+ <img width="1677" height="763" alt="lab pics 2" src="https://github.com/user-attachments/assets/044c4189-25f8-44cb-859c-c828051166e5" />
+
+_ _ _
 - Step 9: Install osTicket  
 
  &emsp;- Unzip osTicket v1.15.8 (`osTicket-v1.15.8.zip`).
@@ -92,6 +100,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  &emsp;- Open IIS, go to Sites -> Default -> osTicket.
 
  &emsp;- Click *Browse :80 to verify the installation.
+
+ <img width="1920" height="1080" alt="lab pic 3" src="https://github.com/user-attachments/assets/1507d375-184d-4a53-b9e7-f81a2bfeca78" />
+This is how osTicket should look. There are some extensions not enabled, which we will cover next
+
+ _ _ _
  
 - Step 10: Enable  required PHP Extensions
   

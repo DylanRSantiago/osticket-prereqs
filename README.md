@@ -135,7 +135,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Step 12: Set Up MySQL Database
 
-&emsp;- Install and open HeidiSQL.
+&emsp;- Install and open HeidiSQL from osTicket folder
 
 &emsp;- Create a new session with:
 

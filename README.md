@@ -121,7 +121,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 &emsp; - Right click-> properties -> security -> advancted -> Disable inheritance -> remove all
 
-&emsp;- Add Everyone with Full Control.
+&emsp;- Add - Select Principle- Type Everyone- Check Full Control.
 
 &emsp;- Continue setting up osTicket in the browser:
 
